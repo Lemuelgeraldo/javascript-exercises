@@ -8,10 +8,20 @@
 */
 
 // Add your code right below, good luck!
+const birthYear = 1947;
+const thisYear = 1965;
+const firstName = "Carlos";
+const lastName = "Stevenson";
 
+const fullName = firstName + " " + lastName;
+const age = thisYear - birthYear;
 
+const greeting = "Hello! My name is " + fullName + " and I am " + age + " years old.";
 
+// const greeting = f(`Hello! My name is ${fullName} and I am ${age} years old.`);
+//just another of string concatenation method.
 
+console.log(greeting);
 
 // Do not change this
 module.exports = {
